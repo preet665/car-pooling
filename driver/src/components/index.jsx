@@ -6,5 +6,6 @@ import Requirements from "./Requirements/Requirements";
 import SideBar from "./Dashboard/SideBar";
 import Dashboard from "./Dashboard/Dashboard";
 import Vehicle from "./Vehicle/Vehicle";
+import DriverProfile from "./DriverProfile";
 
-export { Navbar, Login, Signup, DocUploader, Requirements, SideBar, Dashboard, Vehicle };
+export { Navbar, Login, Signup, DocUploader, Requirements, SideBar, Dashboard, Vehicle,DriverProfile };

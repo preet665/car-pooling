@@ -9,6 +9,7 @@ const ProfPage = () => {
         <Navbar home={true} li={"Sign Up"} />
         <Profile />
       </ProtectedSignRoute> */}
+      <Navbar home={true} li={"Sign Up"} />
       <RiderProfile />
     </>
   );

@@ -7,9 +7,9 @@ import Button from '../Button/Button'
 const navigation = [
     { name: 'Dashboard', href: '/', current: false },
     { name: 'Driver Manage', href: '/driver', current: false },
-    { name: 'User Manage', href: '#', current: false },
+    { name: 'User Manage', href: '/user', current: false },
     { name: 'Vehicles', href: '/vehicle', current: true },
-    { name: 'Earnings', href: '#', current: false },
+    // { name: 'Earnings', href: '#', current: false },
     
   ]
 

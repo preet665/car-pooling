@@ -11,7 +11,7 @@ dotenv.config({ path: require('find-config')('.env') });
 //const config = dotenv.parse(fs.readFileSync("/Volumes/UNTITLED/e_drie/freelancing_sagarsir/Hey-Taxi/server/src/utility/config.env"))
 //const config = process.env
 const config = process.env
-console.log(config)
+//console.log(config)
 export default cleanEnv( config, {
     MONGO_CONNECTION_STRING: str(),
     PORT: port(),

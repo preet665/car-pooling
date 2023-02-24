@@ -8,6 +8,7 @@ import Loginpage from "./pages/Loginpage";
 import RequirementPage from "./pages/RequirementPage";
 import SignupPage from "./pages/SignupPage";
 import VehiclesPage from "./pages/VehiclesPage";
+import DriverProf from "./pages/Profile";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
               <Route path="/requirements" element={<RequirementPage />} />
               <Route path="/requirements/docUpload" element={<DocUploaderPage />} />
               <Route path="/vehicles" element={<VehiclesPage />} />
+              <Route path="/profile" element={<DriverProf />} />
             </Routes>
       </Router>
     </>

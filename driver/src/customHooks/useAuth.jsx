@@ -7,10 +7,10 @@ const useAuth = () => {
 
   useEffect(() => {
     const token = JSON.parse(localStorage.getItem("token"));
-    if (!token) {
-      navigate("/login");
-      return;
-    }
+    // if (!token) {
+    //   // navigate("/login");
+    //   // return;
+    // }
     setAuthenticated(true);
   }, []);
   return authenticated;

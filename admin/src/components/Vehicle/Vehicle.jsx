@@ -46,6 +46,11 @@ const Vehicle = () => {
                 alert(err)
             })
     }
+
+    const handleDeleteUser = (userId) => {
+        // TODO: Implement delete user logic
+        console.log(`Deleting user with id ${userId}`);
+    }
     return (
         <div>
             <button className='bg-zinc-900 text-white py-1 px-3 rounded hover:bg-zinc-700'
@@ -120,7 +125,41 @@ const Vehicle = () => {
                     <div className="opacity-25 fixed inset-0 z-40 bg-black"></div>
                 </>
             ) : null}
+            {/* <div className="shadow-lg p-6 rounded-md bg-white">
+            <h2 className="text-lg font-bold">Toyota</h2>
+            <div className="text-sm text-gray-500 my-2">
+                <p>2016</p>
+                <p>SUV</p>
+            </div>
+            <div className="flex justify-between items-center">
+                <p className="text-sm text-gray-500">123456789</p>
+                <p className="text-sm text-gray-500">987654321</p>
+            </div>
+            <div className="text-sm text-gray-500 my-2">
+                <p>Insurance: Valid</p>
+                <p>Driver ID: 098669</p>
+            </div>
+            </div> */}
+            <div className="shadow-lg p-6 rounded-md bg-white">
+                <h2 className="text-lg font-bold">Toyota</h2>
+                <div className="text-sm text-gray-500 my-2">
+                    <p>2016</p>
+                    <p>SUV</p>
+                </div>
+                <div className="flex justify-between items-center">
+                    <p className="text-sm text-gray-500">123456789</p>
+                    <p className="text-sm text-gray-500">987654321</p>
+                </div>
+                <div className="text-sm text-gray-500 my-2">
+                    <p>Insurance: Valid</p>
+                    <p>Driver ID: 098669</p>
+                </div>
+                <button onClick={handleDeleteUser} className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded">
+                    Delete
+                </button>
+                </div>
         </div>
+        
     )
 }
 

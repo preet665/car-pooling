@@ -1,5 +1,5 @@
 import React from 'react'
-import {  Navbar, SideBar, Vehicle } from '../components'
+import {  Navbar, SideBar, Vehicle,DriverProfile } from '../components'
 
 const VehiclesPage = () => {
   return (
